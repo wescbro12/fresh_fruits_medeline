@@ -7,8 +7,8 @@ const express = require("express"); // Import express
 const morgan = require("morgan"); // Import morgan
 const methodOverride = require("method-override");
 // const mongoose = require("./models/connection");
-const Fruit = require('.models/fruit')
-const fruitController = require('.controllers/fruits')
+// const Fruit = require('.models/fruit')
+const fruitController = require('./controllers/fruits')
 const path = require("path"); // built in node module we use to resolve paths
 
 
